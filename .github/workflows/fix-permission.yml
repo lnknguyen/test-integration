@@ -12,6 +12,5 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           persist-credentials: true
-      #- run: chmod +x action.sh
-      - echo : "nothing nhehehe"
+      - run: chmod +x action.sh
       - uses: stefanzweifel/git-auto-commit-action@v7
